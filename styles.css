@@ -9,3 +9,40 @@ body {
   line-height: 1.6;
   color: #333;
 }
+.header {
+  background-color: #1f2937;
+  color: #ffffff;
+  text-align: center;
+  padding: 3rem 1rem;
+}
+
+.header__nombre {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.header__cargo {
+  font-size: 1rem;
+  color: #9ca3af;
+}
+.menu {
+  background-color: #374151;
+  padding: 0.75rem 1rem;
+}
+
+.menu__lista {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  list-style: none;
+}
+
+.menu__enlace {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menu__enlace:hover {
+  color: #fbbf24;
+}
